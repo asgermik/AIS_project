@@ -1,0 +1,16 @@
+To-dos:
+1) Try using dask or something optimized for out-of-core computing since the whole dataset cannot
+at all be loaded all at once
+
+2) Explore the oresund dataset and see if there is something interesting to do!
+
+3) Make it a GitHub project so code is shared
+
+
+Lessons:
+1) Doing a single comparison on data for ONE day takes 3 min (selecting a single ship to plot trajectory)
+
+2) Et tilfældigt skib jeg tog ud har 37000 entries for én dag... Hvert datapunkt er duplikeret 4 gange
+(måske med forskellige positioneringssystemer???)
+2.1) Der er 37.500.000 entries for en tilfældig januardag
+2.2) Oresund data took 14 mins in pandas
