@@ -4,13 +4,14 @@ at all be loaded all at once
 
 2) Explore the oresund dataset and see if there is something interesting to do!
 
-3) Make it a GitHub project so code is shared
+3) Organise dataset and find out what ships and when they cross øresundsbroen
 
 
 Lessons:
-1) Doing a single comparison on data for ONE day takes 3 min (selecting a single ship to plot trajectory)
+1) Doing a single comparison on data for ONE day takes 3 min (selecting a single ship to plot trajectory) (1 min mac)
 
 2) Et tilfældigt skib jeg tog ud har 37000 entries for én dag... Hvert datapunkt er duplikeret 4 gange
 (måske med forskellige positioneringssystemer???)
 2.1) Der er 37.500.000 entries for en tilfældig januardag
-2.2) Oresund data took 14 mins in pandas
+2.2) Oresund data took 14 mins in pandas (9 mins mac)
+2.3) Cleanup data before savig. I need to filter stuff!!!
