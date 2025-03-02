@@ -6,6 +6,8 @@ at all be loaded all at once
 
 3) Organise dataset and find out what ships and when they cross øresundsbroen
 
+3) Do some kind of basic estimate (not even a fitted model) to expose some structure. Identify moving ships!
+
 
 Lessons:
 1) Doing a single comparison on data for ONE day takes 3 min (selecting a single ship to plot trajectory) (1 min mac)
@@ -15,3 +17,5 @@ Lessons:
 2.1) Der er 37.500.000 entries for en tilfældig januardag
 2.2) Oresund data took 14 mins in pandas (9 mins mac)
 2.3) Cleanup data before savig. I need to filter stuff!!!
+
+3) Øresundsbroen forbinder (55.628996, 12.682873) og (55.564952, 12.88866)
