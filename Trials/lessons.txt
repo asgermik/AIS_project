@@ -19,3 +19,11 @@ Lessons:
 2.3) Cleanup data before savig. I need to filter stuff!!!
 
 3) Øresundsbroen forbinder (55.628996, 12.682873) og (55.564952, 12.88866)
+
+
+Immediate to-do:
+Identify what ships crosses Oresund - DONE
+Find criteria for when ship is "present" and "not present" for the model
+Try and build a basic "model" that filters out not moving ships and provides a basic estimate for moving ships.
+    see if results are somehow reasonable...
+Reorganize data into single ship dictionary (torch dataset?)

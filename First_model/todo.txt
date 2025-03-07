@@ -1,0 +1,13 @@
+This model will be some kind of regression (and/or zeroth order estimate (probably for evaluation of model performance))
+Based on data from 2025-01-19
+
+It takes (for ships that will cross Oresund):
+Distance to bridge (as calculated)
+Speed of approach to bridge (as calculated from distance)
+
+And predicts:
+Time for crossing
+
+There is then no ID and no history (except for calculating speed of approach)
+
+
