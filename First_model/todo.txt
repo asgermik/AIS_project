@@ -10,4 +10,24 @@ Time for crossing
 
 There is then no ID and no history (except for calculating speed of approach)
 
+Results from making_dataset (also first zeroth order model):
+The 0th order estimate is alright but has serious outliers for "weird" boats.
+It doesn't readily solve the issue of filtering out small boats
+I will try some other model. 
 
+Is it at all possible to create a classifier???
+approximately 80 % of ships do not cross Oresund!
+
+
+
+NEXT:
+See how the zeroth order model will "perform" in real time!
+Only showing ships moving TOWARDS broen
+Showing estimates of TTC (and possibly error for illustration)
+Then the human eye must be the classifier
+Showing all ships inside some threshold (to be determined) and hiding ships moving away outside the corridor
+Maybe, it is possible to define "cones of interest" to hide more ships (angle depending on distance from bridge)
+
+This will show if classification is very important for the visual presentation or if precise regression is more important
+(this will determine how to make the model!!!)
+Is the real time picture very cluttered?
