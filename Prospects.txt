@@ -1,0 +1,3 @@
+Maybe to a "graphlike" discretization (automatically???) of the ship "network" (it is in reality not totally free moving)
+Investigate how other traffic navigation algorithms are made!
+Is there any other non-machine learning methods that can estimate (from data) how ships move? Like the patterns they follow or something?

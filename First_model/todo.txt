@@ -1,3 +1,9 @@
+IDEAS:
+Maybe it will be possible to do a "nodification" of ship traffic in Oresund
+To do some kind of discretization of the problem?
+To identify sailing routes and patterns automatically
+
+
 This model will be some kind of regression (and/or zeroth order estimate (probably for evaluation of model performance))
 Based on data from 2025-01-19
 
@@ -31,3 +37,5 @@ Maybe, it is possible to define "cones of interest" to hide more ships (angle de
 This will show if classification is very important for the visual presentation or if precise regression is more important
 (this will determine how to make the model!!!)
 Is the real time picture very cluttered?
+Find cluttering/classification metric (ships not crossing within 5 hours but shown anyway or something)
+Find a graphical interface that makes sense!

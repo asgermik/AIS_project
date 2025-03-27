@@ -1,0 +1,11 @@
+Next up is machine learning I think. Or some other more sophisticated mathematical model of the ship traffic. Idk what
+But I will require much more data!
+So now I will be working on scraping the site and automatically make the Oreswund cropping, filter and aggregate the data with relevant information
+
+line 1:
+1) Accessing the webpage with the data and downloading a day (month?)
+2) Handling extremely large CSV files?
+
+
+line 2:
+is there a more sensible distance metric than the simple signed one? one that can more elegantly take care of Copenhagen harbour?
